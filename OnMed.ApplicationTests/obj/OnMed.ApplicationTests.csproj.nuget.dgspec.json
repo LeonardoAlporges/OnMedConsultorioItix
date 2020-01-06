@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.ApplicationTests\\OnMed.ApplicationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.ApplicationTests\\OnMed.ApplicationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.ApplicationTests\\OnMed.ApplicationTests.csproj",
+        "projectName": "OnMed.ApplicationTests",
+        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.ApplicationTests\\OnMed.ApplicationTests.csproj",
+        "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.ApplicationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj"
+              },
+              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj",
+        "projectName": "OnMed.Application",
+        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj",
+        "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+        "projectName": "OnMed.Domain",
+        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+        "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj",
+        "projectName": "OnMed.Infra.Data",
+        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

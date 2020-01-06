@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj",
+        "projectName": "OnMed.Application",
+        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj",
+        "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+        "projectName": "OnMed.Domain",
+        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+        "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
