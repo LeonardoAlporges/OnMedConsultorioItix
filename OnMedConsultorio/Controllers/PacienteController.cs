@@ -34,24 +34,13 @@ namespace OnMedConsultorio.api.Controllers
         [HttpPost]
         public ActionResult PostItem([FromBody]PacienteViewModel pacienteViewModel)
         {
-            int result = DateTime.Compare(pacienteViewModel.DataConsultaFinal, pacienteViewModel.DataConsultaInicial);
-            if (result < 0)
+            var resultado = this.pacienteService.CompararDatas(pacienteViewModel.DataConsultaFinal, pacienteViewModel.DataConsultaInicial);
+            
+            if (resultado == "Ok")
             {
-                Console.WriteLine("Erro!!! Dia final e menor que dia inicial");
-                return BadRequest();
+                var SalvoSucesso = this.pacienteService.Salvo(pacienteViewModel);
 
-            }
-            else if (result == 0)
-            {
-                Console.WriteLine("As datas sao iguais");
-                BadRequest();
-                return BadRequest();
-            }
-            else if (result > 0)
-            {
-               var verificar = this.pacienteService.SalvarItem(pacienteViewModel);
-
-                if (verificar == true)
+                if (SalvoSucesso == true)
                 {
                     return Ok();
                 }
@@ -60,7 +49,10 @@ namespace OnMedConsultorio.api.Controllers
                     return BadRequest();
                 }
             }
-            return BadRequest();
+            else 
+            {
+                return BadRequest();
+            }
         }
     }
 }

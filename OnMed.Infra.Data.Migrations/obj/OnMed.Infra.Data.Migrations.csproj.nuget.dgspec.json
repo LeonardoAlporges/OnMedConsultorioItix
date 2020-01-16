@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj": {}
+    "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
+    "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj",
         "projectName": "OnMed.Domain",
-        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+        "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj",
         "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\obj\\",
+        "outputPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj": {
+    "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj",
+        "projectUniqueName": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj",
         "projectName": "OnMed.Infra.Data.Migrations",
-        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj",
+        "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj",
         "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\obj\\",
+        "outputPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj"
+              "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
+    "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj",
         "projectName": "OnMed.Infra.Data",
-        "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,8 +161,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
-                "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj"
+              "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj": {
+                "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj"
               }
             }
           }

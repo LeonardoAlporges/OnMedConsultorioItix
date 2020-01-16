@@ -9,6 +9,6 @@ namespace OnMed.Domain.Repository
     {
         IEnumerable<Paciente> ObterPaciente();
         void SalvarItem(Paciente paciente);
-        bool BuscaNome(DateTime dataInicial);
+        bool BuscarData(DateTime dataInicial);
     }
 }

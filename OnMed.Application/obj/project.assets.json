@@ -549,11 +549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj",
+      "projectUniqueName": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Application\\OnMed.Application.csproj",
       "projectName": "OnMed.Application",
-      "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj",
+      "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Application\\OnMed.Application.csproj",
       "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\obj\\",
+      "outputPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -569,8 +569,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
-              "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj"
+            "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj": {
+              "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj"
             }
           }
         }

@@ -530,11 +530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj",
       "projectName": "OnMed.Domain",
-      "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj",
+      "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj",
       "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\obj\\",
+      "outputPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",

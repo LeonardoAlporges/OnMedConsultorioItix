@@ -8478,11 +8478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMedConsultorio\\OnMedConsultorio.api.csproj",
+      "projectUniqueName": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMedConsultorio\\OnMedConsultorio.api.csproj",
       "projectName": "OnMedConsultorio.api",
-      "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMedConsultorio\\OnMedConsultorio.api.csproj",
+      "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMedConsultorio\\OnMedConsultorio.api.csproj",
       "packagesPath": "C:\\Users\\NOTE 162\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMedConsultorio\\obj\\",
+      "outputPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMedConsultorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NOTE 162\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8498,17 +8498,17 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj": {
-              "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Application\\OnMed.Application.csproj"
+            "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Application\\OnMed.Application.csproj": {
+              "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Application\\OnMed.Application.csproj"
             },
-            "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj": {
-              "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Domain\\OnMed.Domain.csproj"
+            "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj": {
+              "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Domain\\OnMed.Domain.csproj"
             },
-            "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj": {
-              "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj"
+            "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj": {
+              "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data.Migrations\\OnMed.Infra.Data.Migrations.csproj"
             },
-            "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\NOTE 162\\source\\repos\\OnMedConsultorio\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj"
+            "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\NOTE 162\\OnMedConsultorioItix\\OnMed.Infra.Data\\OnMed.Infra.Data.csproj"
             }
           }
         }

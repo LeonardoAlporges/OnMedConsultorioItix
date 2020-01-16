@@ -10,5 +10,8 @@ namespace OnMed.Application.Service.Interface
     {
         IEnumerable<PacienteViewModel> ObterPaciente();
         bool SalvarItem(PacienteViewModel paciente);
+        string CompararDatas(DateTime Final, DateTime Inicio);
+        bool Salvo(PacienteViewModel paciente);
+
     }
 }

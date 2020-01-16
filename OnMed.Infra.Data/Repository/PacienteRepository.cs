@@ -23,7 +23,6 @@ namespace OnMed.Infra.Data.Repository
 
         public IEnumerable<Paciente> ObterPaciente()
         {
-            
             var listaPaciente = this.context.Set<Paciente>().ToList();
             return listaPaciente;
         }
@@ -33,7 +32,9 @@ namespace OnMed.Infra.Data.Repository
                 this.context.Set<Paciente>().Add(paciente);
                 this.context.SaveChanges();
         }
-        public bool BuscaNome(DateTime dataInicial)
+
+
+        public bool BuscarData(DateTime dataInicial)
         {
             var paciente = this.context.Set<Paciente>();
             foreach (Paciente paci in paciente)
@@ -41,10 +42,8 @@ namespace OnMed.Infra.Data.Repository
                 if(paci.DataConsultaFinal > dataInicial && paci.DataConsultaInicial < dataInicial)
                 {
                     return false;
-                }
-                
+                }               
             }
-            
             return true;
            
         }

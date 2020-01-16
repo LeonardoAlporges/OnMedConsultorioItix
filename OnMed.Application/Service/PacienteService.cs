@@ -36,7 +36,7 @@ namespace OnMed.Application.Service
 
         public bool SalvarItem(PacienteViewModel pacienteViewModel)
         {
-            var teste = this.pacienteRepository.BuscaNome(pacienteViewModel.DataConsultaInicial);
+            var teste = this.BuscarData(pacienteViewModel.DataConsultaInicial);
             if(teste == false)
             {
                 Console.WriteLine("Mesmo Ranger");
@@ -46,12 +46,45 @@ namespace OnMed.Application.Service
             {
                 var Paciente = new Paciente(pacienteViewModel.Nome, pacienteViewModel.Nacimento, pacienteViewModel.DataConsultaInicial, pacienteViewModel.DataConsultaFinal, pacienteViewModel.Observacao);
                 this.pacienteRepository.SalvarItem(Paciente);
-                
                 return true;
-
             }
 
             
+        }
+        public string CompararDatas(DateTime Final, DateTime Inicial)
+        {
+            int result = DateTime.Compare(Final,Inicial);
+            if (result < 0)
+            {
+                return "Data Final Menor Que A Inicial";
+            }
+            else if (result == 0)
+            {
+                return "Datas Iguais";
+            }
+            else if (result > 0)
+            {
+                return "Ok";
+            }
+            return "Erro ao comparar";
+        }
+        public bool Salvo(PacienteViewModel paciente)
+        {
+            var retorno = this.SalvarItem(paciente);
+            if (retorno)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
+        }
+        public bool BuscarData(DateTime DataInicio)
+        {
+            return this.pacienteRepository.BuscarData(DataInicio);
+
         }
     }
 }

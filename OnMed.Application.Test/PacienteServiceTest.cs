@@ -10,7 +10,12 @@ namespace OnMed.Application.Test
 {
     public class PacienteServiceTest
     {
-       
+        private readonly Mock<IPacienteRepository> pacienteRepositoryMock;
+
+        public PacienteServiceTest()
+        {
+            this.pacienteRepositoryMock = new Mock<IPacienteRepository>();
+        }
         [Fact]
         public void SalvarItemTest_QuandoSalvarNoBanco_RetornoOK()
         {
@@ -21,12 +26,27 @@ namespace OnMed.Application.Test
             pacienteView.DataConsultaFinal = DateTime.Parse("2040-12-29T20:12:07.6030998-03:00");
             pacienteView.Observacao = "leo";
 
+            this.pacienteRepositoryMock.Setup(x => x.BuscarData(pacienteView.DataConsultaInicial)).Returns(true);
 
-            PacienteService paciente = new PacienteService();
+            var pacienteService = new PacienteService(pacienteRepositoryMock.Object);
 
-            var resultadoEsperado = paciente.SalvarItem(pacienteView);
+            var resultadoEsperado = pacienteService.SalvarItem(pacienteView);
+
+            Assert.True(resultadoEsperado);
+        }
+        [Fact]
+        public void DataTest_RangerDatas_RetornoTrue()
+        {
+            DateTime DataInicio = DateTime.Parse("2040-12-29T20:12:07.6030998-03:00");
+
+            var  resultado = this.pacienteRepositoryMock.Setup(x => x.BuscarData(DataInicio)).Returns(true);
+
+            var pacienteService = new PacienteService(pacienteRepositoryMock.Object);
+
+            var resultadoEsperado = pacienteService.BuscarData(DataInicio);
 
             Assert.True(resultadoEsperado);
         }
     }
 }
+
